@@ -29,7 +29,7 @@ rest_btn.addEventListener("click", ()=>{
 
 let showWinner = (pos1)=>{
    div.classList.remove("hide")
-   msg.innerText = `congratualtions!!! winner is ${pos1}`
+   msg.innerText = `Congratualtions!!! Winner is ${pos1}`
    for(let box of boxes){
       box.disabled = true;
    }

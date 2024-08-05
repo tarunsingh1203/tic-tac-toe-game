@@ -20,7 +20,7 @@ h1{
 }
 .game{
    height: 60vh;
-   width: 60vh;
+   width: 62vh;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -75,4 +75,50 @@ h1{
 }
 .gameOver{
    display: none;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+   .box{
+      height: 12vh;
+      width: 12vh;
+   }
+
+   .game{
+      height: 50vh;
+      width: 50vh;
+      gap: 1rem;
+   }
+
+   h1{
+      font-size: 48px;
+   }
+   .msg{
+      font-size: 36px;
+   }
+   
+}
+
+
+@media screen and (max-width: 400px) {
+
+   .box{
+      height: 10vh;
+      width: 10vh;
+   }
+
+   .game{
+      height: 40vh;
+      width: 40vh;
+      gap: 0.7rem;
+   }
+
+   h1{
+      font-size: 42px;
+   }
+
+   
+   
 }
